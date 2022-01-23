@@ -1,6 +1,8 @@
 .productList{
     flex: 4;
     margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.473);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.473);
 }
 
 .productListItem{

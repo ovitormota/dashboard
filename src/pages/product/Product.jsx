@@ -3,6 +3,7 @@ import './product.css';
 import { Chart } from '../../components/chart/Chart';
 import { productData } from '../../dummyData';
 import { Publish } from '@material-ui/icons';
+import AirPods from '../../images/airpods.jpg'
 
 export function Product() {
     return (
@@ -20,7 +21,7 @@ export function Product() {
                 <div className="productTopRight">
                     <div className="productInfoTop">
                         <img
-                            src="https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                            src={AirPods}
                             alt=""
                             className="productInfoImg"
                         />
@@ -65,7 +66,7 @@ export function Product() {
                     <div className="productFormRight">
                         <div className="productUpload">
                             <img
-                                src="https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                                src={AirPods}
                                 alt=""
                                 className="productUploadImg"
                             />

@@ -27,21 +27,21 @@ export function ProductList() {
         );
       },
     },
-    { field: "stock", headerName: "Stock", width: 200 },
+    { field: "stock", headerName: "Stock", width: 170 },
     {
       field: "status",
       headerName: "Status",
-      width: 160,
+      width: 170,
     },
     {
       field: "price",
       headerName: "Price",
-      width: 180,
+      width: 170,
     },
     {
       field: "action",
       headerName: "Actions",
-      width: 160,
+      width: 170,
       renderCell: (params) => {
         return (
           <>

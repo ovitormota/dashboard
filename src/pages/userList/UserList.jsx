@@ -26,7 +26,7 @@ export function UserList() {
         },
         { field: 'email', headerName: 'E-mail', width: 230 },
         { field: 'status', headerName: 'Status', width: 120 },
-        { field: 'transaction', headerName: 'Transaction Volume', width: 200 },
+        { field: 'transaction', headerName: 'Transaction Volume', width: 190 },
         {
             field: 'action',
             headerName: 'Actions',
