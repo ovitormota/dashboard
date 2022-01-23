@@ -32,7 +32,7 @@ export function NewProduct() {
                             alt="Product Image"
                             className="productImage"
                         />
-                        <Publish />
+                        <Publish className='productImagePublish'/>
                     </label>
                     <input type="file" id="file" style={{ display: 'none' }} />
                     <button className="addProductButton">Create</button>
