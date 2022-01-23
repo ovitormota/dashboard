@@ -4,6 +4,8 @@
     background-color: rgb(251, 251, 255);
     position: sticky;
     top: 50px;
+    /* -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.411);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.411); */
 }
 
 .sidebarWrapper {
@@ -43,8 +45,4 @@
 .sidebarIcon {
     margin-right: 5px;
     font-size: 20px !important;
-}
-
-.others {
-    flex: 4;
 }
